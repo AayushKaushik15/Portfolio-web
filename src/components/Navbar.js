@@ -18,7 +18,7 @@ const Navbar = () => {
 
     
   return (
-    <div className='fixed w-full h-[80px]  flex justify-between items-center px-4 backdrop-blur-[5px] text-gray-300'>
+    <div className='fixed w-full h-[80px]  flex justify-between items-center px-4 bg-[#0e1111] text-gray-300'>
         <div className=''>
             <img src={Logo} alt="Logo image" style={{width : "50px"}}/>
         </div>
@@ -43,7 +43,7 @@ const Navbar = () => {
         {/* mobile menu */}
 
         
-        <ul  className={nav ? 'absolute top-0 right-[0px]  p-10 h-screen bg-[#1f1e25] flex flex-col transition-all duration-[0.4s] ' : 'absolute opacity-10 top-0 right-[-190px]  h-screen bg-[#24252a] flex flex-col transition-all duration-700'}>
+        <ul  className={nav ? 'absolute top-0 right-[0px] z-[1000p] p-10 h-screen bg-[#1f1e25] flex flex-col transition-all duration-[0.4s] ' : 'absolute opacity-10 top-0 right-[-190px]  h-screen bg-[#24252a] flex flex-col transition-all duration-700'}>
             <li className='py-5 flex items-center mt-10 text-2xl cursor-pointer active:text-pink-600'><IoHomeOutline className='mr-3' /><Link onClick={clickHandler}  to="home" smooth={true}  duration={500}> Home </Link></li>
             <li className='py-5 flex items-center text-2xl cursor-pointer active:text-pink-600'><IoPersonOutline className='mr-3'/><Link onClick={clickHandler}  to="about" smooth={true}  duration={500}> About </Link></li>
             <li className='py-5 flex items-center text-2xl cursor-pointer active:text-pink-600'><MdOutlineCreate className='mr-3'/><Link onClick={clickHandler}  to="skills" smooth={true}  duration={500}> Skills </Link></li>
