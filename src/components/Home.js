@@ -32,9 +32,7 @@ const Home = () => {
               Resume <HiDownload className="ml-3 text-[20px] group-hover:translate-y-[5px] duration-[0.2s]"/>
             </button>
             
-            <div className='absolute  bottom-[40px] left-[50%] z-[-1]'>
-              <FaAngleDown className="text-2xl text-pink-700 animate-bounce infinite"/>
-            </div>
+            
             </div>
         </div>
     </div>

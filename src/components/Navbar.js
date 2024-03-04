@@ -30,7 +30,7 @@ const Navbar = () => {
                 <li><Link to="home" className='hover:text-pink-600 hover:border-b-2 border-pink-600 p-2' smooth={true}  duration={500}> Home </Link></li>
                 <li><Link to="about" className='hover:text-pink-600 hover:border-b-2 border-pink-600 p-2' smooth={true}  duration={500}> About </Link></li>
                 <li><Link to="skills" className='hover:text-pink-600 hover:border-b-2 border-pink-600 p-2' smooth={true}  duration={500}> Skills </Link></li>
-                <li><Link to="work" className='hover:text-pink-600 hover:border-b-2 border-pink-600 p-2' smooth={true}  duration={500}> Work </Link></li>
+                <li><Link to="work" className='hover:text-pink-600 hover:border-b-2 border-pink-600 p-2' smooth={true}  duration={500}> Projects </Link></li>
                 <li><Link to="contact" className='hover:text-pink-600 hover:border-b-2 border-pink-600 p-2' smooth={true}  duration={500}> Contact </Link></li>
             </ul>
 
@@ -47,7 +47,7 @@ const Navbar = () => {
             <li className='py-5 flex items-center mt-10 text-2xl cursor-pointer active:text-pink-600'><IoHomeOutline className='mr-3' /><Link onClick={clickHandler}  to="home" smooth={true}  duration={500}> Home </Link></li>
             <li className='py-5 flex items-center text-2xl cursor-pointer active:text-pink-600'><IoPersonOutline className='mr-3'/><Link onClick={clickHandler}  to="about" smooth={true}  duration={500}> About </Link></li>
             <li className='py-5 flex items-center text-2xl cursor-pointer active:text-pink-600'><MdOutlineCreate className='mr-3'/><Link onClick={clickHandler}  to="skills" smooth={true}  duration={500}> Skills </Link></li>
-            <li className='py-5 flex items-center text-2xl cursor-pointer active:text-pink-600'><MdOutlineWorkOutline className='mr-3'/><Link onClick={clickHandler}  to="work" smooth={true}  duration={500}> Work </Link></li>
+            <li className='py-5 flex items-center text-2xl cursor-pointer active:text-pink-600'><MdOutlineWorkOutline className='mr-3'/><Link onClick={clickHandler}  to="work" smooth={true}  duration={500}> Projects </Link></li>
             <li className='py-5 flex items-center text-2xl cursor-pointer active:text-pink-600'><MdOutlineContactPage className='mr-3' /><Link onClick={clickHandler}  to="contact" smooth={true}  duration={500}> Contact </Link></li>
             <div className='absolute bottom-20 flex items-center justify-center bg-pink-800 p-2 rounded shadow-lg'>
                 Developer.io <SiBuymeacoffee className='ml-2'/>
@@ -76,7 +76,7 @@ const Navbar = () => {
             </li>
    
             <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 transition-all bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 '>
-                <a href="/" className='flex justify-between items-center w-full text-gray-300'>
+                <a href="/" className='flex justify-between items-center w-full text-gray-300 no-underline'>
                     Instagram <FaInstagram size={30}/>
                 </a>
             </li>   
