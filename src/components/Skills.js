@@ -12,7 +12,7 @@ import { skillsData } from '../constants/data'
 
 const Skills = () => {
   return (
-    <div name="skills" className='w-full h-[100vh] flex justify-center  bg-[#0e1111] text-gray-900 px-4 '>
+    <div name="skills" className='w-full min-h-[100vh] flex justify-center  bg-[#0e1111] text-gray-900 px-4 '>
         <div className='w-[1000px] m-auto px-4'>
             <h1 className='text-center text-4xl sm:text-5xl text-gray-300 font-bold border-b-4 border-pink-600 inline'>Skills</h1>
             <div className= 'max-w-[600px] m-auto '>

@@ -6,10 +6,12 @@ import { FaGithub } from "react-icons/fa";
 
 const Work = () => {
   return (
-    <div name="work" className='bg-[#0e1111] w-full h-[100vh] '>
-      <h1 className='text-gray-300 text-3xl text-center sm:text-5xl '>projects</h1>
-      <div className='flex items-center justify-center flex-wrap '>
-      <div className="card m-7 shadow-lg bg-white p-2 rounded" style={{ width: '18rem' }} >
+    <div name="work" className='bg-[#0e1111] w-full min-h-[100vh] '>
+      <div className=' '>
+      <h1 className='text-gray-300 font-bold text-3xl  sm:text-5xl w-[66%] m-auto pl-5'>Projects</h1>
+
+          <div className='flex items-center justify-center flex-wrap'>
+          <div className="card m-7 shadow-lg bg-white p-2 rounded" style={{ width: '18rem' }} >
         <img className="card-img-top" src={foodApp} alt="Card image cap" />
         <div className="card-body">
           <h5 className="card-title text-[20px] font-bold my-2">CrunchByte</h5>
@@ -44,7 +46,7 @@ const Work = () => {
         <div className="card-body">
           <h5 className="card-title text-[20px] font-bold my-2">CrunchByte</h5>
           <p className="card-text">
-            
+          CrunchByte is a user-friendly food ordering web app designed to streamline the dining experience
           </p>
           <a href="#" className="btn btn-primary mt-3 m-1 shadow-lg flex items-center justify-center p-2 text-white rounded bg-pink-600 border-none hover:bg-pink-800">
             Go Live <CiServer className='ml-3'/>
@@ -54,6 +56,7 @@ const Work = () => {
           </a>
         </div>
       </div>
+          </div>
       
       </div>
     </div>
