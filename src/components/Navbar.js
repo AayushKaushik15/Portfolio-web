@@ -74,17 +74,7 @@ const Navbar = () => {
                     Instagram <FaInstagram size={30}/>
                 </a>
             </li>
-            <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 transition-all bg-[#1DA1F2] '>
-                <a href="https://twitter.com/Ayushkauahik" target='blank' className='flex justify-between items-center w-full text-gray-300'>
-                    Twitter <FaTwitter size={30}/>
-                </a>
-            </li>
-            <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 transition-all bg-[#1DA1F2] '>
-                <a href="https://twitter.com/Ayushkauahik" target='blank' className='flex justify-between items-center w-full text-gray-300'>
-                    Twitter <FaTwitter size={30}/>
-                </a>
-            </li>
-            <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 transition-all bg-[#1DA1F2] '>
+            <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 transition-all bg-[#4a7d9c] '>
                 <a href="https://twitter.com/Ayushkauahik" target='blank' className='flex justify-between items-center w-full text-gray-300'>
                     Twitter <FaTwitter size={30}/>
                 </a>
