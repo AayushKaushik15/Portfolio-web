@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import Logo from "../assets/logo1.png"
-import {FaBars, FaTimes,FaGithub, FaLinkedin, FaCalendar, FaFacebook, FaLink, FaTwitter,FaInstagram} from 'react-icons/fa'
+import {FaBars, FaTimes,FaGithub, FaLinkedin, FaCalendar, FaFacebook, FaLink, FaTwitter,FaInstagram, FaXRay} from 'react-icons/fa'
 import { HiOutlineMail } from 'react-icons/hi'
 import {BsFillPersonLinesFill} from "react-icons/bs"
 import { MdDeveloperMode, MdOutlineCreate , MdOutlineWorkOutline, MdOutlineContactPage  } from "react-icons/md";
@@ -43,7 +43,7 @@ const Navbar = () => {
         {/* mobile menu */}
 
         
-        <ul  className={nav ? 'absolute top-0 right-[0px] z-[1000p] p-10 h-screen bg-[#1f1e25] flex flex-col transition-all duration-[0.4s] ' : 'absolute opacity-10 top-0 right-[-190px]  h-screen bg-[#24252a] flex flex-col transition-all duration-700'}>
+        <ul  className={nav ? 'absolute top-0 right-[0px] z-[9]  rounded-lg p-10 h-[400px] backdrop-blur-lg bg-[#1f1e25] flex flex-col transition-all duration-[0.4s] ' : 'absolute opacity-10 top-0 right-[-190px]  h-screen bg-[#24252a] flex flex-col transition-all duration-700'}>
             <li className='py-5 flex items-center mt-10 text-1xl cursor-pointer active:text-pink-600'><IoHomeOutline className='mr-3' /><Link onClick={clickHandler}  to="home" smooth={true}  duration={500}> Home </Link></li>
             <li className='py-5 flex items-center text-1xl cursor-pointer active:text-pink-600'><IoPersonOutline className='mr-3'/><Link onClick={clickHandler}  to="about" smooth={true}  duration={500}> About </Link></li>
             <li className='py-5 flex items-center text-1xl cursor-pointer active:text-pink-600'><MdOutlineCreate className='mr-3'/><Link onClick={clickHandler}  to="skills" smooth={true}  duration={500}> Skills </Link></li>
@@ -67,6 +67,16 @@ const Navbar = () => {
             <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 transition-all bg-[#1f1e25] '>
                 <a href="https://github.com/AayushKaushik15" target='blank' className='flex justify-between items-center w-full text-gray-300'>
                     GitHub <FaGithub size={30}/>
+                </a>
+            </li>
+            <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 transition-all bg-pink-800 '>
+                <a href="https://www.instagram.com/canonicaldev/" target='blank' className='flex justify-between items-center w-full text-gray-300'>
+                    Instagram <FaInstagram size={30}/>
+                </a>
+            </li>
+            <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 transition-all bg-[#1DA1F2] '>
+                <a href="https://twitter.com/Ayushkauahik" target='blank' className='flex justify-between items-center w-full text-gray-300'>
+                    Twitter <FaTwitter size={30}/>
                 </a>
             </li>
 
