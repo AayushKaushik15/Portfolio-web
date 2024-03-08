@@ -79,6 +79,16 @@ const Navbar = () => {
                     Twitter <FaTwitter size={30}/>
                 </a>
             </li>
+            <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 transition-all bg-[#1DA1F2] '>
+                <a href="https://twitter.com/Ayushkauahik" target='blank' className='flex justify-between items-center w-full text-gray-300'>
+                    Twitter <FaTwitter size={30}/>
+                </a>
+            </li>
+            <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 transition-all bg-[#1DA1F2] '>
+                <a href="https://twitter.com/Ayushkauahik" target='blank' className='flex justify-between items-center w-full text-gray-300'>
+                    Twitter <FaTwitter size={30}/>
+                </a>
+            </li>
 
         </ul>
         </div>
